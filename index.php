@@ -27,6 +27,7 @@
 	  			# code...
 	  		}
 	  ?>
+      <h2>Числа для проверки: Fizz- 2; Buzz - 5; Общая длина - 45</h2>
   <form method="post">
 	<div id="container">
 		<textarea name="textarea" type="textarea" cols="100" rows="20"></textarea>
