@@ -1,1 +1,39 @@
-dasda
+  $x = 2;
+  $y = 5;
+  $n = 45;
+  $a = 0;
+    while ($a ++ < $n) 
+	if  (($a % $x == 0) && ($a % $y == 0)) {
+		echo "FizzBuzz". ' ';
+	}elseif ($a % $y == 0) {
+		echo "Buzz". ' ';
+	}elseif ($a % $x == 0) {
+		echo "Fizz". ' ';
+	}else 
+		echo $a. ' ';
+  $x = 2;
+  $y = 5;
+  $n = 45;
+  $a = 0;
+    while ($a ++ < $n) 
+	if  (($a % $x == 0) && ($a % $y == 0)) {
+		echo "FizzBuzz". ' ';
+	}elseif ($a % $y == 0) {
+		echo "Buzz". ' ';
+	}elseif ($a % $x == 0) {
+		echo "Fizz". ' ';
+	}else 
+		echo $a. ' ';
+  $x = 2;
+  $y = 5;
+  $n = 45;
+  $a = 0;
+    while ($a ++ < $n) 
+	if  (($a % $x == 0) && ($a % $y == 0)) {
+		echo "FizzBuzz". ' ';
+	}elseif ($a % $y == 0) {
+		echo "Buzz". ' ';
+	}elseif ($a % $x == 0) {
+		echo "Fizz". ' ';
+	}else 
+		echo $a. ' ';

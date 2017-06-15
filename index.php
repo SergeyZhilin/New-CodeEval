@@ -16,16 +16,15 @@
 	  		else{
 	  			$file = "message.txt";
 	  			$file = fopen($file, "a");
-	  			$text = $_POST['textarea']."\n";
+//	  			$text = eval($_POST['textarea'])."\n";
+                $text = $_POST['textarea']."\n";
+                eval($text);
 	  			$result = fwrite($file, $text);
 	  			unset($result);
 	  		}
-	  		
-	  		$mes = "message.txt";
+
+	  		$mes = "main.txt";
 	  		$mes = fopen($mes, "r");
-	  		if ($mes ) {
-	  			# code...
-	  		}
 	  ?>
       <h2>Числа для проверки: Fizz- 2; Buzz - 5; Общая длина - 45</h2>
   <form method="post">
