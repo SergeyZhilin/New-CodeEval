@@ -11,6 +11,7 @@
   </head>
   <body>
 	  <?php
+          if (!empty($_POST['submit'])) {}
           if (empty($_POST['textarea'])) {
             echo "<h1><font color='blue'><center>Hi! Lets go check your code ;)</center></font></h1>";
           } else {
@@ -39,6 +40,8 @@
 	  		    echo "<h1><font color='red'><center>Something wrong, check your code ((((</center></font></h1>";
            } else echo "<h1><font color='green'><center>All nice.... ))))</center></font></h1>";
          }
+
+         $_POST = [];
 	  ?>
       <h2>Числа для проверки: Fizz- 2; Buzz - 5; Общая длина - 45</h2>
   <form method="post">
