@@ -20,14 +20,14 @@
 	  			fclose($file);
 
 	  		$mes = "message.txt";
-	  		$mes = fopen($mes, "r");
+	  		$mes = file_get_contents($mes);
 
 	  		$main = "main.txt";
-	  		$main = fopen($main, "r");
+	  		$main = file_get_contents($main);
 
-//	  		if (strnatcmp($main, $mes) == 0) {
-//	  		    echo "All nice";
-//            } else echo "So BAd...((((";
+	  		if ($main !== $mes) {
+	  		    echo "So BAd...((((";
+           } else echo "All nice";
 
 	  ?>
       <h2>Числа для проверки: Fizz- 2; Buzz - 5; Общая длина - 45</h2>
