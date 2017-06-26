@@ -1,12 +1,3 @@
-<?php
-  // error_reporting(E_ALL);
-  // ini_set('display_errors', 1);
-// session_start();
-require_once 'controllers/main.php';
-$mes;
-$message;
-?>
-
 <!DOCTYPE HTML>
 
 <html>
@@ -15,9 +6,9 @@ $message;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
 
@@ -28,8 +19,8 @@ $message;
             <ul>
               <li><a href="#intro">Welcome</a></li>
               <li><a href="#one">Inserted Code</a></li>
-              <li><a href="#two">Result</a></li>
-              <li><a href="#three">Get in touch</a></li>
+<!--               <li><a href="#two">Result</a></li>
+              <li><a href="#three">Get in touch</a></li> -->
             </ul>
           </nav>
         </div>
@@ -45,12 +36,13 @@ $message;
               <h1>Welcome</h1>
               <p>Just press next, and go check your code ;)</p>
               <ul class="actions">
-                <li><a href="#one" class="button scrolly">Next</a></li>
+                <li><a href="../#one" class="button scrolly">Next</a></li>
               </ul>
             </div>
           </section>
 
         <!-- One -->
+        <form role="form" method="post" action="views/result">
           <section id="one" class="wrapper style2 spotlights">
             <div class="inner">
               <h1>Cool</h1>
@@ -60,24 +52,25 @@ $message;
                   <br>
                   <br>
                   <ul class="actions">
-                    <li><input type="submit" class="button scrolly" name="submit" value="Next"></li>
+                    <li><a href="views/result.php" class="button scrolly" name="submit">Next</a></li>
                   </ul>
             </div>
           </section>
+        </form>
 
         <!-- Two -->
-          <section id="two" class="wrapper style1 fade-up">
+<!--           <section id="two" class="wrapper style1 fade-up">
             <div class="inner">
               <h2>You result : </h2>
 
               <ul class="actions">
-                <li><a href="#" class="button">Ok</a></li>
+                <li><a href="../#" class="button">Ok</a></li>
               </ul>
             </div>
-          </section>
+          </section> -->
 
         <!-- Three -->
-          <section id="three" class="wrapper style2 spotlights">
+<!--           <section id="three" class="wrapper style2 spotlights">
             <div class="inner">
               <h2>Get in touch</h2>
               <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
@@ -97,7 +90,7 @@ $message;
                       <textarea name="message" id="message" rows="5"></textarea>
                     </div>
                     <ul class="actions">
-                      <li><a href="" class="button submit">Send Message</a></li>
+                      <li><a href="../" class="button submit">Send Message</a></li>
                     </ul>
                   </form>
                 </section>
@@ -111,7 +104,7 @@ $message;
                     </li>
                     <li>
                       <h3>Email</h3>
-                      <a href="#">user@untitled.tld</a>
+                      <a href="../#">user@untitled.tld</a>
                     </li>
                     <li>
                       <h3>Phone</h3>
@@ -120,18 +113,18 @@ $message;
                     <li>
                       <h3>Social</h3>
                       <ul class="icons">
-                        <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="../#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="../#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="../#" class="fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="../#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="../#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
                       </ul>
                     </li>
                   </ul>
                 </section>
               </div>
             </div>
-          </section>
+          </section> -->
 
       </div>
 
