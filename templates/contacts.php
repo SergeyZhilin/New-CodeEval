@@ -1,45 +1,45 @@
 <section id="three" class="wrapper style2 spotlights">
             <div class="inner">
-              <h2>Get in touch</h2>
-              <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+              <h2>{{ hcontacts }}</h2>
+              <p>{{ pcontacts }}</p>
               <div class="split style1">
                 <section>
                   <form method="post" action="#">
                     <div class="field half first">
-                      <label for="name">Name</label>
+                      <label for="name">{{ name }}</label>
                       <input type="text" name="name" id="name" />
                     </div>
                     <div class="field half">
-                      <label for="email">Email</label>
+                      <label for="email">{{ email }}</label>
                       <input type="text" name="email" id="email" />
                     </div>
                     <div class="field">
-                      <label for="message">Message</label>
+                      <label for="message">{{ message }}</label>
                       <textarea name="message" id="message" rows="5"></textarea>
                     </div>
                     <ul class="actions">
-                      <li><a href="../" class="button submit">Send Message</a></li>
+                      <li><a href="../" class="button submit">{{ sendmes }}</a></li>
                     </ul>
                   </form>
                 </section>
                 <section>
                   <ul class="contact">
                     <li>
-                      <h3>Address</h3>
+                      <h3>{{ address }}</h3>
                       <span>12345 Somewhere Road #654<br />
                       Nashville, TN 00000-0000<br />
                       USA</span>
                     </li>
                     <li>
-                      <h3>Email</h3>
+                      <h3>{{ email }}</h3>
                       <a href="../#">user@untitled.tld</a>
                     </li>
                     <li>
-                      <h3>Phone</h3>
+                      <h3>{{ phone }}</h3>
                       <span>(000) 000-0000</span>
                     </li>
                     <li>
-                      <h3>Social</h3>
+                      <h3>{{ social }}</h3>
                       <ul class="icons">
                         <li><a href="../#" class="fa-twitter"><span class="label">Twitter</span></a></li>
                         <li><a href="../#" class="fa-facebook"><span class="label">Facebook</span></a></li>

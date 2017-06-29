@@ -2,10 +2,10 @@
         <div class="inner">
           <nav>
             <ul>
-              <li><a href="#intro">Welcome</a></li>
-              <li><a href="#one">Inserted Code</a></li>
-              <li><a href="#two">Result</a></li>
-              <li><a href="#three">Get in touch</a></li>
+              <li><a href="#intro">{{ intro }}</a></li>
+              <li><a href="#one">{{ one }}</a></li>
+              <li><a href="#two">{{ two }}</a></li>
+              <li><a href="#three">{{ three }}</a></li>
             </ul>
           </nav>
         </div>
