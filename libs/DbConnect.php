@@ -39,7 +39,7 @@ class DbConnect
     public static function getConnect()
     {
         if (!self::$db) {
-            self::$db = new self("localhost", "db_name", "root", "");
+            self::$db = new self("localhost", "checkme", "root", "");
         }
         return self::$db->conn;
     }

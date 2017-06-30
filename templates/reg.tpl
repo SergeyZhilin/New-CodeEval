@@ -4,15 +4,21 @@
               <p>{{ pcontacts }}</p>
               <div class="split style1">
                 <section>
-                  <form method="post" action="#">
+                  <form method="post" action="index.php">
                     <div class="field">
                       <label for="name">{{ name }}</label>
                       <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
                       <label for="email">{{ email }}</label>
-                      <input type="text" name="email" id="email" />
+                      <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                      <label for="password">{{ password }}</label>
+                      <input type="password" name="password" id="password" />
                     </div>
                     <ul class="actions">
-                      <li><a href="../" class="button submit">{{ sendmes }}</a></li>
+                      <li><a href="" class="button submit" name="submit">{{ sendmes }}</a></li>
                     </ul>
                   </form>
                 </section>

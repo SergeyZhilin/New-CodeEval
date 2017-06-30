@@ -17,6 +17,7 @@
 	$pcontacts = "Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.";
 	$name = "User Name";
 	$email = "Email";
+	$password = "Password";
 	$social = "Login with social";
 	$sendmes = "Registration";
 
@@ -26,8 +27,10 @@
 		'pcontacts' => $pcontacts,
 		'name' => $name,
 		'email' => $email,
-		'message' => $message,
 		'social' => $social,
 		'sendmes' => $sendmes,
+		'password' => $password,
 		));
+
+
 ?>
