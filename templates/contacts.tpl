@@ -25,20 +25,6 @@
                 <section>
                   <ul class="contact">
                     <li>
-                      <h3>{{ address }}</h3>
-                      <span>12345 Somewhere Road #654<br />
-                      Nashville, TN 00000-0000<br />
-                      USA</span>
-                    </li>
-                    <li>
-                      <h3>{{ email }}</h3>
-                      <a href="../#">user@untitled.tld</a>
-                    </li>
-                    <li>
-                      <h3>{{ phone }}</h3>
-                      <span>(000) 000-0000</span>
-                    </li>
-                    <li>
                       <h3>{{ social }}</h3>
                       <ul class="icons">
                         <li><a href="../#" class="fa-twitter"><span class="label">Twitter</span></a></li>

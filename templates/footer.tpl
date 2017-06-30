@@ -1,4 +1,4 @@
-      <footer id="footer" class="wrapper style1-alt">
+      <footer id="footer" class="wrapper wrapper-alt">
         <div class="inner">
           <ul class="menu">
             <li>&copy; SimplyWorld.</li>

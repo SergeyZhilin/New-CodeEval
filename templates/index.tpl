@@ -1,3 +1,3 @@
-{% extends "base.php" %}
+{% extends "base.tpl" %}
 
 {% block title %}{{ title }}{% endblock %}
