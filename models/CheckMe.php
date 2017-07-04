@@ -4,7 +4,7 @@
 
           if (!empty($_POST['submit'])) {}
           if (empty($_POST['textarea'])) {
-            echo "<h1><font color='blue'><center>Hi! Lets go check your code ;)</center></font></h1>";
+            $resultone = "Hi! I dont get your code. Lets go back and insert your code ;)";
           } else {
 
 	  			$file = fopen("message.txt", "w");
@@ -28,8 +28,8 @@
 	  		$main = file_get_contents($main);
 
 	  		if ($main !== $mes) {
-	  		    echo "<h1><font color='red'><center>Something wrong, check your code ((((</center></font></h1>";
-           } else echo "<h1><font color='green'><center>All nice.... ))))</center></font></h1>";
+	  		    $resultone = "Something wrong, check your code ((((";
+           } else $resultone = "All nice.... ))))";
          }
 
          $_POST = [];
