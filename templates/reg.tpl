@@ -19,12 +19,20 @@
                     </div>
                     <ul class="actions">
                       <li><a href="#" class="button submit" name="submit">{{ sendmes }}</a></li>
-                      <li><a href="#" class="button submit" name="submit">{{ back }}</a></li>
                     </ul>
                   </form>
                 </section>
                 <section>
                   <ul class="contact">
+                    <div class="field">
+                      <label for="name">{{ username }}</label>
+                      <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
+                      <label for="password">{{ password }}</label>
+                      <input type="password" name="password" id="password" />
+                    </div>
+                    <li><a href="index.php" class="button submit" name="submit">{{ login }}</a></li>
                     <li>
                       <h3>{{ social }}</h3>
                       <ul class="icons">
@@ -35,6 +43,7 @@
                         <li><a href="../#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
                       </ul>
                     </li>
+                    
                   </ul>
                 </section>
               </div>

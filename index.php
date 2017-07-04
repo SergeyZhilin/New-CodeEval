@@ -21,8 +21,9 @@
 	/*header.tpl*/
 
 	$navone = "Home";
-	$navtwo = "Registration";
+	$navtwo = "Login";
 	$navthree = "Check Me";
+	$navfour = "Registration";
 
 	echo $template->render(array(
 		'title' => $title,
@@ -32,5 +33,6 @@
 		'navone' => $navone,
 		'navtwo' => $navtwo,
 		'navthree' => $navthree,
+		'navfour' => $navfour,
 		));
  ?>

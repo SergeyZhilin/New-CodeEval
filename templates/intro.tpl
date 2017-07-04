@@ -4,6 +4,7 @@
               <p>{{ pintro }}</p>
               <ul class="actions">
                 <li><a href="#one" class="button scrolly">{{ next }}</a></li>
+                <li><a href="index.php" class="button scrolly">{{ back }}</a></li>
               </ul>
             </div>
           </section>

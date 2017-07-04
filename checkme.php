@@ -11,9 +11,10 @@
 
 	$title = "Check Me";
 
-	/*button Next*/
+	/*button Next, Back*/
 
 	$next = "Next";
+	$back = "Back";
 	
 	/*check.tpl*/
 
@@ -66,5 +67,6 @@
 		'message' => $message,
 		'social' => $social,
 		'sendmes' => $sendmes,
+		'back' => $back,
 		));
  ?>
