@@ -1,6 +1,8 @@
 <?php 
 
 	require_once 'vendor/autoload.php';
+	require_once 'libs/db.php';
+	require_once 'models/User.php';
 
 	Twig_Autoloader::register();
 

@@ -1,25 +1,17 @@
 <?php 
 
-	namespace models;
+    require_once 'libs/db.php';
 
-	use libs\DbConnect;
+	$sql = $conn->prepare("INSERT INTO user (username, email, password) VALUES (:name, :email, :password)");
 
-class User extends Model
-{
-	public $id;
-    public $username = '';
-    public $email = '';
-    public $password = '';
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$password = $_POST['password'];
 
-    public function create()
-    {
-        $sql = "INSERT INTO user(username, email, password) VALUES ('name', 'email', 'password')";
-        $this->connection->prepare($sql)->execute();
+	$sql->bindParam(':name', $name);
+	$sql->bindParam(':email', $email);
+	$sql->bindParam(':password', $password);
 
-        $this->id = $this->connection->lastInsertId();
-
-        return $this;
-    }
-}
+	$sql->execute();
 
 ?>
