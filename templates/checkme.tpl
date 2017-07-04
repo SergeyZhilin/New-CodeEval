@@ -4,7 +4,7 @@
   <body>
 
       <!-- Sidebar -->
-	{%  include "sidebar.tpl" %} 
+	{%  include "sidebarcheckme.tpl" %} 
 
     <!-- Wrapper -->
       <div id="wrapper">
@@ -16,8 +16,6 @@
         <!-- One -->
 	{%  include "check.tpl" %}
 
-        <!-- Two -->
-	{%  include "result.tpl" %}
 
         <!-- Three -->
   {%  include "contacts.tpl" %}

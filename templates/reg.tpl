@@ -19,6 +19,7 @@
                     </div>
                     <ul class="actions">
                       <li><a href="" class="button submit" name="submit">{{ sendmes }}</a></li>
+                      <li><a href="" class="button submit" name="submit">{{ back }}</a></li>
                     </ul>
                   </form>
                 </section>

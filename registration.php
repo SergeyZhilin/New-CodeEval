@@ -11,6 +11,10 @@
 
 	$title = "Registration";
 
+	/*button Back*/
+
+	$back = "Back";
+
 	/*reg.tpl*/
 
 	$hcontacts = "Get in touch";
@@ -30,6 +34,7 @@
 		'social' => $social,
 		'sendmes' => $sendmes,
 		'password' => $password,
+		'back' => $back,
 		));
 
 

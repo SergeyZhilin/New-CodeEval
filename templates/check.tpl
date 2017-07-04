@@ -1,4 +1,4 @@
-        <form role="form" method="post" action="">
+        <form method="post" action="result.php">
           <section id="one" class="wrapper style2 spotlights">
             <div class="inner">
               <h1>{{ cool }}</h1>
@@ -8,7 +8,7 @@
                   <br>
                   <br>
                   <ul class="actions">
-                    <li><a href="#two" class="button scrolly" name="submit">{{ next }}</a></li>
+                    <li><a href="result.php" class="button scrolly" name="submit">{{ next }}</a></li>
                   </ul>
             </div>
           </section>

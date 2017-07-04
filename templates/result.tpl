@@ -3,7 +3,8 @@
               <h2>{{ result }}</h2>
 
               <ul class="actions">
-                <li><a href="#" class="button">{{ next }}</a></li>
+                <li><a href="index.php" class="button">{{ next }}</a></li>
+                <li><a href="checkme.php" class="button">{{ back }}</a></li>
               </ul>
             </div>
           </section>
