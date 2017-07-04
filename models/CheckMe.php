@@ -2,7 +2,6 @@
 
     require_once 'libs/db.php';
 
-    	  <?php
           if (!empty($_POST['submit'])) {}
           if (empty($_POST['textarea'])) {
             echo "<h1><font color='blue'><center>Hi! Lets go check your code ;)</center></font></h1>";
@@ -35,5 +34,4 @@
 
          $_POST = [];
          
-	  ?>
 ?>

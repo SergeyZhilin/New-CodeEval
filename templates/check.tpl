@@ -8,7 +8,7 @@
                   <br>
                   <br>
                   <ul class="actions">
-                    <li><a href="result.php" class="button scrolly" name="submit">{{ next }}</a></li>
+                    <li><button class="button scrolly" name="submit">{{ next }}</button></li>
                   </ul>
             </div>
           </section>
